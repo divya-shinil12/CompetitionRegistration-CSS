@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Webpage</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo-sunrise.jpg" alt="Logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="registration.html">Registration</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <h1 id="title">Registration form</h1>
+    <div class="container">
+        <div class="form-container">
+             <for id="registration-form" method="POST">
+                
+                <!--Enter the name-->
+                <div class="form-group">
+                    <label for="name" id="name-label">Full Name
+                        <input type="text" id="name" name="user-name" placeholder="Full Name" required>
+                    </label>
+                </div>
+                
+                <!--Enter the email-->
+                <div class="form-group">
+                    <label for="email" id="email-label">Email Address
+                        <input type="email" id="email" name="email-id" placeholder="Email" required>
+                    </label>
+                </div>
+
+                <!--Enter your phone number-->
+                <div class="form-group">
+                    <label for="phone" id="phone-label">Full Name
+                        <input type="number" id="phone" name="phone-number" placeholder="Phone Number" required>
+                    </label>
+                </div>
+
+                <!--Select Categories-->
+                <div class="form-group">
+                    <label for="category">Select the category</label>
+                    <select id="category" name="category" required>
+                        <option>select one</option>
+                        <option value="landscape">Landscape</option>
+                        <option value="potrait">Potrait</option>
+                        <option value="wildlife">Wildlife</option>
+                        <option value="abstract">Abstract</option>
+                        <option value="street">Street Photography</option>
+                    </select>
+                </div>
+
+                <!--Enter more details-->
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="2" placeholder="Tell us about yourself and your work."></textarea>
+                </div>
+
+                <!--Button-->
+                <div class="form-group">
+                    <button id="submitbutton" type="submit">Register</button>
+                </div>
+             </form>  
+           
+        </div>        
+    </div>
+
+    <footer>
+        This is a sample website.
+    </footer>
+</body>
+</html>

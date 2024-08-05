@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #003333;
+    color: #333;
+    line-height: 1.6;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #003333;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 80px;
+    width: 150px;
+    margin: 5px 120px ;
+}
+
+nav {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+}
+
+nav a {
+    color: #333;
+    margin: 0 35px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #001a1a;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #001a1a;
+    display: flex;
+    gap: 20px;
+}
+
+.text {
+    flex: 2;
+}
+
+.text h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.text p {
+    margin-bottom: 15px;
+}
+
+.container img {
+    flex: 1;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.subheading{
+    color: #ff6347;
+}
+
+.atag{
+    color: aqua;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #001a1a;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Registration form css*/
+#title{
+    text-align: center;
+    color: #ff6347;
+}
+.form-container{
+    margin: 50px 450px;
+    padding: 20px;
+    width: 100%;
+    background: #52bb95;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.form-group{
+    padding: 10px;
+}
+
+label{
+    text-align: left;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+input, select, textarea, button{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 2px solid #322F5F;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+#submitbutton:hover{
+    background: #ff6347;
+}
+
+.contact-info{
+    margin: 50px 500px;
+    padding: 20px;
+    width: 100%;
+    background: #52bb95;
+    border-radius: 10px;
+    padding: 50px;
+}
+  
+
